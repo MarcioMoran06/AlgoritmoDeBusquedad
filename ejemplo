@@ -18,3 +18,11 @@ def interpolation_search(arr, x):
             high = pos - 1
     
     return -1
+
+
+# Ejemplo de uso
+arr = [10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]
+x = 18
+index = interpolation_search(arr, x)
+print(f'Elemento {x} {"encontrado en el índice" if index != -1 else "no encontrado"}: {index}')
+```
